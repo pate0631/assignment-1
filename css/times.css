@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Mali', cursive;
+    font-family: 'Ubuntu', Arial, 'Lato', sans-serif;
+    *font-family:
+    font-style:sans-serif;
+    background-color: hsl(8, 2%, 10%);
+    color: hsl(0, 0%, 100%);
+}
+h1, h2, h3, h4{
+    /*font-family: font stack required for headings */
+    font-style:sans-serif;
+}
+p{
+    
+}
+.container{
+    min-width:1024px;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    min-height: 100%;
+    
+}
+.subnav{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    text-align: right;
+}
+.subnav a{
+    
+}
+.mainnav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:  -left: 15%;
+}
+.mainnav a{
+    flex-basis: 25%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(8, 2%, 10%);
+    font-size: 1.414em;
+}
+.masthead{
+    
+}
+.times-logo{
+    
+}
+.masthead h1{
+    
+}
+.content{
+    
+}
+.content .story{
+     background-color: hsl(0, 0%, 100%);
+    color: hsl(8, 2%, 10%);
+    margin: 2%;
+    border-radius: 1%;
+    
+}
+.story.lead-story{
+   background-color: hsl(0, 0%, 100%);
+    color: hsl(8, 2%, 10%);
+    margin: 2%;
+    border-radius: 1%;
+}
+
+h1.story-title{
+    font-size: 2.827em;
+    text-align: center;
+}
+.story img{
+    display: inline-block;
+    float: right;
+    border: 1px dotted black;
+    border-radius: 2%;
+        margin-top: -105px;
+    margin-right: 6px;
+    margin-bottom: -30px;
+}
+.story p{
+color:aquamarine !important
+   #story title 1 {
+        text-align: center;
+    }
+}
+
+.story blockquote{
+    background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+    color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.story blockquote::after{
+    content: close-quote;
+    display: inline;
+}
+.story p.byline{
+    font-size: 1.41em;
+    text-align: center;
+}
+p.byline span.author{
+    text-align: center;
+}
+p.byline span.pub{
+    
+}
+.foot{
+    
+}
+.foot p{
+    
+}
